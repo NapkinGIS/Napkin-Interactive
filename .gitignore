@@ -1,0 +1,16 @@
+node_modules/
+wwwroot/build/
+npm-debug.log
+version.js
+.DS_Store
+.localized
+.sass-cache
+/terriajs.pid
+/terriajs-server.log
+
+/error.log
+/error.log
+/output.log
+privateserverconfig.json
+wwwroot/privateconfig.json
+packages/
