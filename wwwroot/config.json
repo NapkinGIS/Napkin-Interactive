@@ -71,7 +71,7 @@
         // True to display new feature popups.
         "showFeaturePrompts": false,
 
-        cesiumIonAccessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0NGU1MTIyZi04ZmM3LTQxN2QtYTg0OS0yMmZlMTA0MjZlY2QiLCJpZCI6MjkxNjAsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTE4MTQ0MDl9.Cr7NWCv6wKqh0dgnN0jXxhskrAYfmmdJEwhsy31CSjQ"
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0NGU1MTIyZi04ZmM3LTQxN2QtYTg0OS0yMmZlMTA0MjZlY2QiLCJpZCI6MjkxNjAsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTE4MTQ0MDl9.Cr7NWCv6wKqh0dgnN0jXxhskrAYfmmdJEwhsy31CSjQ"
 
     }
 }
