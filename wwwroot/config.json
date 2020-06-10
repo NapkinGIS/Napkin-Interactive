@@ -9,8 +9,8 @@
         googleAnalyticsOptions: null,
         /* Text that appears at the bottom of the map */
         disclaimer: {
-            text: "",
-            url: ""
+            text: "© Napkin Interactive",
+            url: "https://napkingis.no"
         },
         /*
         // Text that will be added to any pages printed from your site.
@@ -43,9 +43,7 @@
 
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
         brandBarElements: [
-            "",
-            "<a target=\"_blank\" href=\"https://napkingis.no\"><img src=\"assets/napkin.svg\" height=\"52\" /></a>",
-            ""
+            "<a target=\"_blank\" href=\"https://napkingis.no\"><img src=\"images/napkin.svg\" height=\"52\" /></a>"
         ],
         // Shown when things go wrong.
         supportEmail: "contact@napkingis.no",
@@ -65,13 +63,13 @@
         // regionMappingDefinitionsUrl: "data/regionMapping.json"
 
         // True to display welcome message on startup.
-        // "showWelcomeMessage": false,
+        "showWelcomeMessage": false,
 
         // True to display in-app guides.
-        // "showInAppGuides": false,
+        "showInAppGuides": false,
 
         // True to display new feature popups.
-        // "showFeaturePrompts": false,
+        "showFeaturePrompts": false,
 
     }
 }

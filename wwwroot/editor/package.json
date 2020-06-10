@@ -1,0 +1,51 @@
+{
+  "_args": [
+    [
+      "terriajs-catalog-editor@0.2.0",
+      "/home/andreas/Dokumenter/napkin/Napkin-Interactive"
+    ]
+  ],
+  "_development": true,
+  "_from": "terriajs-catalog-editor@0.2.0",
+  "_id": "terriajs-catalog-editor@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-2cZnnlPE2S6HpTGviWxhSIiO2OQ=",
+  "_location": "/terriajs-catalog-editor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "terriajs-catalog-editor@0.2.0",
+    "name": "terriajs-catalog-editor",
+    "escapedName": "terriajs-catalog-editor",
+    "rawSpec": "0.2.0",
+    "saveSpec": null,
+    "fetchSpec": "0.2.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/terriajs-catalog-editor/-/terriajs-catalog-editor-0.2.0.tgz",
+  "_spec": "0.2.0",
+  "_where": "/home/andreas/Dokumenter/napkin/Napkin-Interactive",
+  "author": {
+    "name": "Steve Bennett",
+    "email": "http://stevebennett.me"
+  },
+  "bugs": {
+    "url": "https://github.com/TerriaJS/catalog-editor/issues"
+  },
+  "description": "Web-based, JSON-schema-driven editor for TerriaJS catalogs.",
+  "homepage": "https://github.com/TerriaJS/catalog-editor#readme",
+  "license": "Apache-2.0",
+  "main": "datasourceeditor.js",
+  "name": "terriajs-catalog-editor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerriaJS/catalog-editor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.0"
+}
