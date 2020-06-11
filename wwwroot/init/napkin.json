@@ -40,6 +40,314 @@
                   "TRANSPARENT": "true",
                   "VERSION": "1.1.1"
                 }
+              },
+              {
+                "name": "Cores (Borkjerner WMS)",
+                "type": "wms-getCapabilities",
+                "description": "MinresKernernWMS contains information about drill cores from the national drill core or sample center.\n\nThe drill cores are thematically divided into industrial minerals, natural stone, metal, bedrock and unspecified",
+                "url": "http://geo.ngu.no/mapserver/MinresKjernerWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "BW Fish Info WMS",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service shows the distribution of sediments on the seabed, classified by grain size.\n\nThe dataset shows the best available data based on bottom sediments grain size regional (about 1: 100,000) and detailed (about 1: 20,000).\nData is updated up to 2 times per year.",
+                "url": "http://geo.ngu.no/mapserver/BWFiskInfoWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Geophysics",
+                "type": "wms-getCapabilities",
+                "description": "Geophysics",
+                "url": "http://geo.ngu.no/mapserver/GeofysikkWMS2",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Geochemistry",
+                "type": "wms-getCapabilities",
+                "description": "Geochemistry",
+                "url": "http://geo.ngu.no/mapserver/GeokjemiWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Geological heritage",
+                "type": "wms-getCapabilities",
+                "description": "The geological heritage mapping service shows registered geological sites that may be of interest to tourists, schoolchildren and nature managers.\n\nWe welcome proposals for corrections and new areas that should be included.",
+                "url": "http://geo.ngu.no/mapserver/GeologiskarvWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Geotreat",
+                "type": "wms-getCapabilities",
+                "description": "Here you will find the WMS address for GeoTreat.\n\nThe application itself is an international portal for finding geological sites.\nToday covers Sweden, Norway, Denmark, Finland and Australia.\nThe ambition is to include several countries.\nWith GeoTreat you can study geological points of interest via smart phone, at home or in a place in nature.",
+                "url": "http://geo.ngu.no/mapserver/GeotreatWMS2",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Groundwater (Granada)",
+                "type": "wms-getCapabilities",
+                "description": "The service is related to groundwater in Norway.\n\nGroundwater is a hidden geological resource that occurs below ground in loads and mountains.\nOnly under certain conditions can groundwater be observed on the surface in the form of natural occurrences such as springs or marshes.\nOtherwise, knowledge of groundwater is limited to underground observations (eg in caves, mines, tunnels, etc.) or from wells.\nThe most important groundwater resources in Norway are in bulk.\nA central systematic collection of information from groundwater wells in Norway began in 1951 when NGU established the Water Drilling Archive.\nAn increased need for groundwater led to increased activity in well drilling and resource mapping in the period after about 1965.\nRegulations on the duty to undertake well drilling and groundwater surveys came into force on 1 January 1997 and include reporting obligations to NGU.\nThe national groundwater database GRANADA was opened as a mapping service on the Internet in May 2004.",
+                "url": "http://geo.ngu.no/mapserver/GranadaWMS3",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Gravel and crush",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service for the gravel and crush database at NGU contains information on the vast majority of gravel and crushed deposits and extraction sites in Norway where the raw material is used for construction.\n\nIn addition, an overview of the stone tips is provided and the database itself also provides information on land use, volume, manufacturers, quality and how important the resources are as raw material for building engineering purposes.",
+                "url": "http://geo.ngu.no/mapserver/GrusPukkWMS5",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Industrial Minerals",
+                "type": "wms-getCapabilities",
+                "description": "The service shows registered deposits of industrial minerals divided into groups and subtypes, as well as industrial minerals - value assessment.\n\nThe service primarily serves the municipalities and Norway Digital parties.\nThe service is therefore developed in Norwegian.\nAn extended version (Prospecting.no) has been prepared for the foreign exploration companies and the professional community.",
+                "url": "http://geo.ngu.no/mapserver/IndustrimineralerWMS2",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Map catalogue",
+                "type": "wms-getCapabilities",
+                "description": "Quaternary geology.",
+                "url": "http://geo.ngu.no/mapserver/KartkatalogWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Soils",
+                "type": "wms-getCapabilities",
+                "description": "The map insights in this mapping service are various selections of themed soil in the loose mass database at NGU.\n\nOn the largest scale, according to a professional assessment, the best quality data, either from 1:20 000, 1:50 000 or 1: 250 000, has been selected for a seamless map for the whole of Norway.\nThere are some analog maps that we are about to digitize and will be added to the database continuously.\nSee the \"Map Catalog\" service for analog maps.\nSelect \"Change Map Service\" from the top menu.\nThe map transparency loads show a simplified classification, as the theme soil according to the SOSI standard v.\n4.0 consists of 78 classes.\nSeveral map insights have been organized, which show greater detail in the classification by topic.\nSee the drop down menu in the upper right of the map service.",
+                "url": "http://geo.ngu.no/mapserver/LosmasserWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Soils, Symbols",
+                "type": "wms-getCapabilities",
+                "description": "Quaternary geology.",
+                "url": "http://geo.ngu.no/mapserver/LosmasserSymbolWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine bottom sediments and sedimentation environment",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service shows the distribution of various sediments classified by grain size and mode of formation, as well as the current sedimentation environment and processes on the seabed; Included in the mapping service are also bottom types from sea level measurement and sediment might.\n\nBottom reflectivity data from measurements with multi-beam echo sounder and 3D seismic provide information about the nature of the bottom (harder or softer bottom).\nIn addition, the mapping service shows the names of the largest banks, depths and sea areas that are often mentioned in connection with marine mapping.",
+                "url": "http://geo.ngu.no/mapserver/MarinBunnsedimenterWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine Geo Hazards",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service shows subsea landforms related to landslide landslides as well as natural phenomena that can cause seabed instability and thus pose a threat to subsea installations and / or exposed coastal areas.",
+                "url": "http://geo.ngu.no/mapserver/MarinGeofarerWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine basemap",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service shows a number of thematic map layers derived from detailed basic knowledge of the seabed: depth and sediments.\n\nThe following derived theme is visualized; steep slopes and flat fjord bottom (slope), anchoring conditions, digging, settling areas.\nA prerequisite for drawing up marine ground maps is that detailed mapping of the seabed in the area has been carried out.",
+                "url": "http://geo.ngu.no/mapserver/MarineGrunnkartWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine landforms",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service shows a variety of landscapes on the seabed.\n\nThe interpretation is based on detailed depth data, as well as bottom reflectivity data and sediment samples.",
+                "url": "http://geo.ngu.no/mapserver/MarinTerrengWMS2",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine landscape",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service shows a division of the marine areas into different marine landscapes, defined as larger geographical areas with uniform visual appearance.\n\nThe classification is based on bathymetry with 50 meters resolution and is part of the basis for the nature type mapping.\nThe purpose of the service is to be able to visualize submarine landscapes in a way that easily communicates knowledge of Norwegian coastal and marine areas to management, industry and research.\nThe main focus is on disseminating the latest mapping and research results from the Mareano program, where marine landscapes are included as part of habitat mapping.",
+                "url": "http://geo.ngu.no/mapserver/MarinLandskapWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine habitats",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service shows the prevalence of marine biotopes, as well as shell sand deposits and glacial deposits in fjords and coastal areas.\n\nThe classification of biotopes was developed in a collaboration between the Institute of Marine Research and Norway's geological survey and is based on a number of geological and biological parameters on the seabed.\nMAREANO delivers flat-coverage ecosystem and landscape-level biotopes based on visual inspection (video), environmental conditions (sampling), and interpretation of data collected with multi-ray sonar.\nThe prevalence of shale sand in coastal areas shows occurrences based on both mapping and modeling, and is a result of the collaboration between NGU and NIVA.\nModeled shell sand areas have been prepared under the auspices of the National Program for Mapping of Marine Biodiversity, which is managed by the Environment Directorate and the Directorate of Fisheries.\nGlacial deposits in the sea represent a special type of habitat with varied animal and plant life, and have therefore been detailed and mapped by NGU in collaboration with the Environment Directorate.",
+                "url": "http://geo.ngu.no/mapserver/MarinNaturtyperWMS2",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine - Geophoto",
+                "type": "wms-getCapabilities",
+                "description": "The purpose of this mapping service is to show examples of what different types of seabed look like with the help of localized subsea images.\n\nPictures have been taken as part of the documentation on most MAREANO trips since 2006, and are used as interpretations for both geologists and biologists.",
+                "url": "http://geo.ngu.no/mapserver/MarinGeofotoWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine - Geochemistry",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service presents content of heavy metals and other inorganic environmental indicators in bottom sediments.",
+                "url": "http://geo.ngu.no/mapserver/MarinGeokjemiWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine boundary and opportunity for marine clay (Quaternary geology)",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service consists of individual map layers showing Marine Border (MG) and Opportunity for Marine Camps (MML).\n\nMarine boundary indicates the highest level that the sea reached after the last ice age.\nData for MG consists of point registrations, lines and polygons.\nLines and polygons are modeled from the points and a 10 m height model.\nShaded areas are above the MG.\nThe service also contains the Possible Marine Clay dataset derived from marine boundary and mass mapping, and shows where there can potentially be marine clay - either up in the day or under other types of mass.\nMML is only available for areas where loads are mapped to a scale of 1:50 000 or more in detail.\n\nThere is no coverage for MML where loads are surveyed on a coarser scale, but marine deposits can still occur for areas below the marine boundary.\nMML for new quarterly geological detail maps of scale 1: 10,000 is not yet included in the service.\nIn the MML dataset, the mapped sediment types under MG are classified according to the possibility of finding marine clay.\nMML is divided into very large, large, medium, very large but incoherent / thin, small or largely absent.\nMML classification does not apply to water-covered areas below the MG / in the sea, although marine clay here is common.\nLandslide polygons have, for technical reasons, been pulled over the shoreline and out into the sea, and this is reflected in the MML polygons.\nIt is encouraged to add water polygons over MML.\nAreas for possible marine clay should always be seen along with areas for marine boundary.\nRead more about MG and MML including usage and uncertainties at ngu.no under disciplines / quaternary geology / marine border",
+                "url": "http://geo.ngu.no/mapserver/MarinGrenseWMS3",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Marine Seismic and Samples",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service contains locations for analog seismic and digital seismic lines with images.",
+                "url": "http://geo.ngu.no/mapserver/MarinLinjerProverWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Metals",
+                "type": "wms-getCapabilities",
+                "description": "The service shows registered deposits of metals.\n\nThe service is available in the application together with NatursteinWMS2, Industrial MineralsWMS2 and BergrettigheterWMS.\nThe service primarily serves the municipalities and Norway Digital parties.\nThe service is therefore developed in Norwegian.\nAn extended version (Prospecting.no) has been prepared for the foreign exploration companies and the professional community.",
+                "url": "http://geo.ngu.no/mapserver/MetallerWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "National database for basic investigations (NADAG)",
+                "type": "wms-getCapabilities",
+                "description": "The National Database for Basic Surveys (NADAG) shows boreholes (points) where basic surveys have been carried out.\n\nToday NADAG contains data from geotechnical drilling (geotechnical drilling) and has a viewing service for these.\nThe services offered by NADAG are free.\nWhere raw data or reports are linked up to the survey point, this can be downloaded free of charge.\nThere is a varying amount of information associated with each data point, depending on, among other things, the format in which the data is delivered.\nNo attempt has been made to correct any errors in the datasets themselves.\nNADAY and contributors are not responsible for the individual use of the datasets.\nWhen using data, reference should be made to the report / data owner.",
+                "url": "http://geo.ngu.no/geoserver/nadag/wms",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Natural stone",
+                "type": "wms-getCapabilities",
+                "description": "The service shows registered deposits of natural stone divided into group and subtype, as well as natural stone area - valuation.\n\nThe service primarily serves the municipalities and Norway Digital parties.\nThe service is therefore developed in Norwegian.\nAn extended version (Prospecting.no) has been prepared for the foreign exploration companies and the professional community.",
+                "url": "http://geo.ngu.no/mapserver/NatursteinWMS2",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Permafrost",
+                "type": "wms-getCapabilities",
+                "description": "The service shows data organized in study areas.\n\nA study area contains one or more measurement points, which in turn are either a borehole or a mini log where the temperature outside the boreholes is measured.\nBorehole temperature data can be temperature series (monitoring) or depth temperature (logs).",
+                "url": "http://geo.ngu.no/mapserver/PermafrostWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Radon",
+                "type": "wms-getCapabilities",
+                "description": "This map service shows the national radon due diligence map.\n\nThe mapping service provides an initial assessment of radon due diligence, and can be used as a tool for municipalities to assess the need for new measurements in homes and when planning new housing construction.\nIf an area has been classified as \"high care\" or \"particularly high care\", this should be taken into account in the municipalities' work with area plans.\nResolution of the data is no better than 1: 50,000 - that is, the data cannot be used on single plots or smaller residential areas.\nThe map shows the likelihood that it may or may not be a radon problem, which is why the maps are most interesting for managing follow-up mapping and developing guidelines for new housing construction.",
+                "url": "http://geo.ngu.no/mapserver/RadonWMS2",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "Slide Unstable Mountain Lot",
+                "type": "wms-getCapabilities",
+                "description": "The map service shows registered unstable mountain areas.\n\nVarious scenarios, line segments, measurement stations for motion measurements and the areas that have been systematically mapped are also shown.\nThe mapping service encompasses various map insights with different symbolization of the data.\nto view examination status, movement speed, degree of danger and degree of risk.\nFact sheets provide useful descriptions and technical parameters for each unstable mountain range, different scenarios, and measurement stations.",
+                "url": "http://geo.ngu.no/mapserver/SkredUstabileFjellpartiWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
               }
             ]
           },
@@ -97,8 +405,365 @@
                       "VERSION": "1.3.0"
                     }
                   },
+                  {
+                    "name": "Hydrological data",
+                    "type": "wms-getCapabilities",
+                    "description": "Hydrological data",
+                    "url": "https://gis3.nve.no/map/services/HydrologiskeData2/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Water bodies OGC",
+                    "type": "wms-getCapabilities",
+                    "description": "Water bodies OGC",
+                    "url": "https://vann-nett.no/arcgis/services/WMS/Vannforskriften_TilstandPotensialRisiko_OGC/MapServer/WMSServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Water bodies not OGC",
+                    "type": "wms-getCapabilities",
+                    "description": "Water bodies not OGC",
+                    "url": "https://vann-nett.no/arcgis/services/WMS/Vannforskriften_TilstandPotensialRisiko_IkkeOGC/MapServer/WMSServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Administrative areas, the Water Directive",
+                    "type": "wms-getCapabilities",
+                    "description": "Administrative areas, the Water Directive",
+                    "url": "https://vann-nett.no/arcgis/services/WMS/AdministrativeOmraaderOGC/MapServer/WMSServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  }
                 ]
               },
+              {
+                "name": "SNOW AND CLIMATE",
+                "type": "group",
+                "description": "",
+                "items": [
+                  {
+                    "name": "Snow and climate",
+                    "type": "wms-getCapabilities",
+                    "description": "Snow and climate",
+                    "url": "http://gridwms.nve.no/wms_server/wms_server.aspx",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "ENERGY",
+                "type": "group",
+                "description": "",
+                "items": [
+                  {
+                    "name": "Hydropower",
+                    "type": "wms-getCapabilities",
+                    "description": "Hydropower",
+                    "url": "https://gis3.nve.no/map/services/Vannkraft1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Wind power-plant",
+                    "type": "wms-getCapabilities",
+                    "description": "Wind power-plant",
+                    "url": "https://gis3.nve.no/map/services/Vindkraft2/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Powergrid installations",
+                    "type": "wms-getCapabilities",
+                    "description": "Powergrid installations",
+                    "url": "https://gis3.nve.no/map/services/Nettanlegg2/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Wind resources",
+                    "type": "wms-getCapabilities",
+                    "description": "Wind resources",
+                    "url": "https://gis3.nve.no/map/services/Vindressurser/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Offshore wind",
+                    "type": "wms-getCapabilities",
+                    "description": "Offshore wind",
+                    "url": "https://gis3.nve.no/map/services/Havvind/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                ]
+              },
+              {
+                "name": "CULTURAL HERITAGE",
+                "type": "group",
+                "description": "",
+                "items": [
+                  {
+                    "name": "Cultural heritage selection",
+                    "type": "wms-getCapabilities",
+                    "description": "Cultural heritage selection",
+                    "url": "https://gis3.nve.no/map/services/KulturminneUtvalg/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "PROTECTION",
+                "type": "group",
+                "description": "",
+                "items": [
+                  {
+                    "name": "Protection plan for watercourses",
+                    "type": "wms-getCapabilities",
+                    "description": "Protection plan for watercourses",
+                    "url": "https://gis3.nve.no/map/services/VerneplanforVassdrag/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "SAFEGUARDS",
+                "type": "group",
+                "description": "",
+                "items": [
+                  {
+                    "name": "Safeguards",
+                    "type": "wms-getCapabilities",
+                    "description": "Safeguards",
+                    "url": "https://gis3.nve.no/map/services/Sikringstiltak1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "DANGER",
+                "type": "group",
+                "description": "",
+                "items": [
+                  {
+                    "name": "Flood zones",
+                    "type": "wms-getCapabilities",
+                    "description": "Flood zones",
+                    "url": "https://gis3.nve.no/map/services/Flomsoner1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Quick clay",
+                    "type": "wms-getCapabilities",
+                    "description": "Quick clay",
+                    "url": "https://gis3.nve.no/map/services/SkredKvikkleire2/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Rockslides",
+                    "type": "wms-getCapabilities",
+                    "description": "Rockslides",
+                    "url": "https://gis3.nve.no/map/services/Fjellskred1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Avalanche Danger zones",
+                    "type": "wms-getCapabilities",
+                    "description": "Avalanche Danger zones",
+                    "url": "https://gis3.nve.no/map/services/Skredfaresoner1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Avalanches Incidents",
+                    "type": "wms-getCapabilities",
+                    "description": "Avalanches Incidents",
+                    "url": "https://gis3.nve.no/map/services/SkredHendelser/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                ]
+              },
+              {
+                "name": "CARE AREAS",
+                "type": "group",
+                "description": "",
+                "items": [
+                  {
+                    "name": "Landslides and floods - caution map",
+                    "type": "wms-getCapabilities",
+                    "description": "Landslides and floods - caution map",
+                    "url": "https://gis3.nve.no/map/services/SkredJordFlomAktR1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Medium flood avalanches - areas of caution",
+                    "type": "wms-getCapabilities",
+                    "description": "Medium flood avalanches - areas of caution",
+                    "url": "https://gis3.nve.no/map/services/FlomskredAktR1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Landslides and floods - areas of caution (trigger, outlet)",
+                    "type": "wms-getCapabilities",
+                    "description": "Landslides and floods - areas of caution (trigger, outlet)",
+                    "url": "https://gis3.nve.no/map/services/JordskredAktR/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Snow avalanche - attention areas",
+                    "type": "wms-getCapabilities",
+                    "description": "Snow avalanche - attention areas",
+                    "url": "https://gis3.nve.no/map/services/SkredSnoAktR/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Military and Defense – Snow avalanche areas",
+                    "type": "wms-getCapabilities",
+                    "description": "Military and Defense – Snow avalanche areas",
+                    "url": "https://gis3.nve.no/map/services/SkredSnoForsvaret/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Snow and rock avalanche areas",
+                    "type": "wms-getCapabilities",
+                    "description": "Snow and rock avalanche areas",
+                    "url": "https://gis3.nve.no/map/services/SkredSnoSteinAkt/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Steinsprang - attention areas",
+                    "type": "wms-getCapabilities",
+                    "description": "Steinsprang - attention areas",
+                    "url": "https://gis3.nve.no/map/services/SkredSteinAktR/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Steepness",
+                    "type": "wms-getCapabilities",
+                    "description": "Steepness",
+                    "url": "https://gis3.nve.no/map/services/Bratthet/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Floods Attention",
+                    "type": "wms-getCapabilities",
+                    "description": "Floods Attention",
+                    "url": "https://gis3.nve.no/map/services/FlomAktR/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Weakened ice",
+                    "type": "wms-getCapabilities",
+                    "description": "Weakened ice",
+                    "url": "https://gis3.nve.no/map/services/SvekketIs1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  }
+                ]
+              }
             ]
           },
           {
