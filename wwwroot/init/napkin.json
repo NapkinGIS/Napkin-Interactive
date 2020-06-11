@@ -15,6 +15,144 @@
         "isOpen": true,
         "items": [
           {
+            "name": "Norwegian Geological Survey (NGU)",
+            "type": "group",
+            "description": "Data provided by the Norwegian geological authority, NGU.\n\nhttps://www.ngu.no/",
+            "items": [
+              {
+                "name": "BerggrunnN250",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service shows N250 bedrock data - vector.\n\nThe data is mainly based on the nationwide printed rock geological map series on a scale of 1: 250,000.\nThe maps are converted to digital form by scanning and vectorization.\nThe dataset contains only bedrock surfaces and may be locally added to new updated data. Large line structures (cracks and faults) have been established as a separate data set (rock structures).\nThe point symbols and measurement observations on the printed maps are not yet available in digital form.\nTheme Codes and Properties segment mainly SOSI standard, version 4.0.",
+                "url": "http://geo.ngu.no/mapserver/BerggrunnWMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              },
+              {
+                "name": "BerggrunnN50",
+                "type": "wms-getCapabilities",
+                "description": "The mapping service shows N50 bedrock data - vector.\n\nThe data is mainly based on the nationwide printed rock geological map series on a scale of 1: 50,000.\nThe maps are scanned and digitized from printed maps. The data set includes only the bedrock surfaces.\nThematic codes and properties mainly follow the SOSI standard, version 4.0",
+                "url": "http://geo.ngu.no/mapserver/BerggrunnN50WMS",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.1.1"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Norwegian Petroleum Directorate – NPD",
+            "type": "wms-getCapabilities",
+            "description": "Norwegian Petroleum Directorate.\nThe Norwegian authority on oil and gas production and exports.\n\nhttps://www.npd.no/",
+            "url": "https://factmaps.npd.no/arcgis/services/FactMaps_ogc/3_0_WGS84_z32/MapServer/WMSServer",
+            "parameters": {
+              "FORMAT": "image/png",
+              "TRANSPARENT": "true",
+              "VERSION": "1.3.0"
+            }
+          },
+          {
+            "name": "Norwegian Watercourse and Energy directorate (NVE)",
+            "type": "group",
+            "description": "Data provided by the Norwegian watercourse and energy authority, NVE.\nNVE's thematic geodata is distributed in accordance with the Norwegian Public Data License (NLOD). NVE disclaims liability for damage caused by errors in data and incorrect use of data.\n\nhttps://www.nve.no/",
+            "items": [
+              {
+                "name": "Water",
+                "type": "group",
+                "description": "",
+                "items": [
+                  {
+                    "name": "Catchment REGINE",
+                    "type": "wms-getCapabilities",
+                    "description": "Catchment REGINE, Nedbørfelt REGINE",
+                    "url": "https://gis3.nve.no/map/services/Nedborfelt1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "River ELVIS",
+                    "type": "wms-getCapabilities",
+                    "description": "River ELVIS, Elvenett ELVIS",
+                    "url": "https://gis3.nve.no/map/services/Elvenett1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Glaciers in Norway",
+                    "type": "wms-getCapabilities",
+                    "description": "Glaciers in Norway",
+                    "url": "https://gis3.nve.no/map/services/Bre1/MapServer/WmsServer",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                ]
+              },
+            ]
+          },
+          {
+            "name": "Norwegian Meteorological Institute (MET)",
+            "type": "group",
+            "description": "Data provided by the Norwegian Meteorological Institute, MET.\nMET Norway is the meteorological service for military and civil services as well as the general public in Norway.\n\nhttps://www.met.no/",
+            "items": [
+              {
+                "name": "Nowcast – Forecasts of rainfall",
+                "type": "wms-getCapabilities",
+                "description": "Near future: based on data from precipitation radar",
+                "url": "https://public-wms.met.no/verportal/radar_nowcast.map",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Weather portal",
+                "type": "wms-getCapabilities",
+                "description": "The map layers you'll, for example, find on Yr.",
+                "url": "https://public-wms.met.no/verportal/verportal.map",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              /*{
+                "name": "uEMEP WMTS – Air quality forecasts",
+                "type": "wms-getCapabilities",
+                "description": "In collaboration with the Environment Directorate and the Norwegian Public Roads Administration",
+                "url": "https://uemep-wms.met.no/uEMEP/2018/10/22/00/Norway/wmts/1.0.0/WMTSCapabilities.xml",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              }*/
+            ]
+          },
+          {
+            "name": "Vegvesenet",
+            "type": "wms-getCapabilities",
+            "description": "Norwegian Road Authority.\n\nhttps://www.ngu.no/",
+            "url": "https://www.vegvesen.no/kart/ogc/norstoy_1_0/ows",
+            "parameters": {
+              "FORMAT": "image/png",
+              "TRANSPARENT": "true",
+              "VERSION": "1.1.1"
+            }
+          },
+          {
             "name": "Bird migration paths",
             "description": "Geographic centers of occurrence estimated daily for 118 migratory bird species using eBird occurrence information for the combined period 2002 to 2014. Additional details on the data and methods can be found here:\nLa Sorte, F.A., Fink, D., Hochachka, W.M. & Kelling, S. (2016) Convergence of broad-scale migration strategies in terrestrial birds. Proceedings of the Royal Society of London B: Biological Sciences, 283, 20152588.\n\n_Don't forget to press the PLAY button below the map after addding this dataset._",
             "type": "czml",
@@ -27,7 +165,7 @@
               60
             ]
           },
-          {
+          /*{
             "url": "http://services.ga.gov.au/gis/rest/services/GA_Surface_Geology/MapServer",
             "type": "esri-mapServer",
             "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
@@ -44,29 +182,8 @@
                 "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
               }
             ]
-          },
-          {
-            "layers": "WaterSummary",
-            "url": "http://eos.ga.gov.au/geoserver/NFRIP-WOfS/wms",
-            "type": "wms",
-            "rectangle": [
-              111,
-              -45,
-              155,
-              -10
-            ],
-            "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)\n\n[nfrip@ga.gov.au](mailto:nfrip@ga.gov.au)",
-            "name": "Water Observations from Space - Summary",
-            "dataUrlType": "direct",
-            "dataUrl": "http://www.ga.gov.au/scientific-topics/hazards/flood/wofs",
-            "info": [
-              {
-                "name": "Licence",
-                "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-              }
-            ]
-          },
-          {
+          },*/
+          /*{
             "description": "Chlorophyll-a, reflecting wavelengths in the green part of the visible light spectrum, is the substance that helps plants capture the sun’s energy. In the water, it indicates the presence of microscopic green algae (phytoplankton). While these plants are a natural part of the reef ecosystem, elevated numbers (a bloom) of phytoplankton signal elevated nutrient levels, especially nitrogen, in the water. Typical sources are runoff from excess fertiliser being applied to crops and, to a lesser extent in the Great Barrier Reef region, sewage contamination from urban areas.",
             "layers": "Chl_MIM_mean",
             "name": "Chlorophyll-a concentration (annual)",
@@ -85,17 +202,7 @@
             },
             "type": "wms",
             "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1A"
-          },
-          {
-            "layer": "s2cloudless",
-            "name": "Sentinel-2 cloudless world 2016",
-            "type": "wmts",
-            "url": "https://a.s2maps-tiles.eu/wmts/",
-            "tileMatrixSetID": "WGS84",
-            "tilingScheme": "geographic",
-            "style": "default",
-            "opacity": 1
-          },
+          },*/
           {
             "layer": "s2cloudless-2018",
             "name": "Sentinel-2 cloudless world 2018",
