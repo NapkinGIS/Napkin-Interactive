@@ -2,4 +2,4 @@
 
 Map-data interaction solution for the Napkin platform.
 
-This project is based on the CesiumJS map-api and the TerriaJS project.
+This project is based on CesiumJS and the TerriaJS project.
