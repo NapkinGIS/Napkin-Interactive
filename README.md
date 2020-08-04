@@ -1,4 +1,4 @@
-# Napkin-Interactive
+# Napkin-Globe
 
 Map-data interaction solution for the Napkin platform.
 

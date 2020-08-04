@@ -9,7 +9,7 @@
         googleAnalyticsOptions: null,
         /* Text that appears at the bottom of the map */
         disclaimer: {
-            text: "© Napkin Interactive",
+            text: "© Napkin Globe",
             url: "https://napkingis.no"
         },
         /*
@@ -39,7 +39,7 @@
             link: "https://napkingis.no"
         },*/
         // This is used in various text messages. You should also set <title> in index.html
-        appName: "Napkin Interactive",
+        appName: "Napkin Globe",
 
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
         brandBarElements: [
