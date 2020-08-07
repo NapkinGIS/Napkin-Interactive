@@ -17,6 +17,7 @@
           {
             "name": "Norwegian Geological Survey (NGU)",
             "type": "group",
+            "preserveOrder": true,
             "description": "Data provided by the Norwegian geological authority, NGU.\n\nhttps://www.ngu.no/",
             "items": [
               {
@@ -365,11 +366,13 @@
           {
             "name": "Norwegian Watercourse and Energy directorate (NVE)",
             "type": "group",
+            "preserveOrder": true,
             "description": "Data provided by the Norwegian watercourse and energy authority, NVE.\nNVE's thematic geodata is distributed in accordance with the Norwegian Public Data License (NLOD). NVE disclaims liability for damage caused by errors in data and incorrect use of data.\n\nhttps://www.nve.no/",
             "items": [
               {
                 "name": "Water",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "",
                 "items": [
                   {
@@ -454,6 +457,7 @@
               {
                 "name": "SNOW AND CLIMATE",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "",
                 "items": [
                   {
@@ -472,6 +476,7 @@
               {
                 "name": "ENERGY",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "",
                 "items": [
                   {
@@ -534,6 +539,7 @@
               {
                 "name": "CULTURAL HERITAGE",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "",
                 "items": [
                   {
@@ -552,6 +558,7 @@
               {
                 "name": "PROTECTION",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "",
                 "items": [
                   {
@@ -570,6 +577,7 @@
               {
                 "name": "SAFEGUARDS",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "",
                 "items": [
                   {
@@ -588,6 +596,7 @@
               {
                 "name": "DANGER",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "",
                 "items": [
                   {
@@ -650,6 +659,7 @@
               {
                 "name": "CARE AREAS",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "",
                 "items": [
                   {
@@ -769,6 +779,7 @@
           {
             "name": "Norwegian Meteorological Institute (MET)",
             "type": "group",
+            "preserveOrder": true,
             "description": "Data provided by the Norwegian Meteorological Institute, MET.\nMET Norway is the meteorological service for military and civil services as well as the general public in Norway.\n\nhttps://www.met.no/",
             "items": [
               {
@@ -809,6 +820,7 @@
           {
             "name": "Norwegian Institute of Bioeconomy (NIBIO)",
             "type": "group",
+            "preserveOrder": true,
             "description": "Data provided by the Norwegian Institute of Bioeconomy, NIBIO.\nNIBIO is the Norwegian authority on ecology and bioeconomy, and researches and delivers knowledge about food and plant production, the environment, maps, land use, genetic resources, forests, business, industry and society.\n\nhttps://www.nibio.no/",
             "items": [
               {
@@ -825,6 +837,7 @@
               {
                 "name": "Soil and soil quality",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "Provides data for different soil themes.",
                 "items": [
                   {
@@ -1030,6 +1043,7 @@
               {
                 "name": "Skogportal",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "Datasets from the NIBIO Skogportal.",
                 "items": [
                   {
@@ -1125,6 +1139,7 @@
               {
                 "name": "Copernicus",
                 "type": "group",
+                "preserveOrder": true,
                 "description": "Copernicus data.",
                 "items": [
                   {
@@ -1187,15 +1202,45 @@
             ]
           },
           {
-            "name": "Vegvesenet",
+            "name": "Norwegian Road Authority (Vegvesenet)",
             "type": "wms-getCapabilities",
-            "description": "Norwegian Road Authority.\n\nhttps://www.ngu.no/",
+            "description": "Norwegian Road Authority.\n\nhttps://www.vegvesen.no/",
             "url": "https://www.vegvesen.no/kart/ogc/norstoy_1_0/ows",
             "parameters": {
               "FORMAT": "image/png",
               "TRANSPARENT": "true",
               "VERSION": "1.1.1"
             }
+          },
+          {
+            "name": "Norwegian Mapping Authority (Kartverket)",
+            "type": "group",
+            "preserveOrder": true,
+            "description": "Norwegian Mapping Authority.\n\nhttps://kartverket.no/",
+            "items": [
+              {
+                "name": "Administrative units",
+                "type": "wms-getCapabilities",
+                "description": "Administrative units",
+                "url": "https://wms.geonorge.no/skwms1/wms.adm_enheter2",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Settlements",
+                "type": "wms-getCapabilities",
+                "description": "Settlements",
+                "url": "https://openwms.statkart.no/skwms1/wms.ssr2",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              }
+            ]
           },
           {
             "name": "Bird migration paths",
