@@ -807,6 +807,386 @@
             ]
           },
           {
+            "name": "Norwegian Institute of Bioeconomy (NIBIO)",
+            "type": "group",
+            "description": "Data provided by the Norwegian Institute of Bioeconomy, NIBIO.\nNIBIO is the Norwegian authority on ecology and bioeconomy, and researches and delivers knowledge about food and plant production, the environment, maps, land use, genetic resources, forests, business, industry and society.\n\nhttps://www.nibio.no/",
+            "items": [
+              {
+                "name": "AR5",
+                "type": "wms-getCapabilities",
+                "description": "Area resource map at a scale of 1:5000",
+                "url": "https://wms.nibio.no/cgi-bin/ar5",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Soil and soil quality",
+                "type": "group",
+                "description": "Provides data for different soil themes.",
+                "items": [
+                  {
+                    "name": "Soils",
+                    "type": "wms-getCapabilities",
+                    "description": "Soils themes",
+                    "url": "https://wms.nibio.no/cgi-bin/jordsmonn",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Soil quality",
+                    "type": "wms-getCapabilities",
+                    "description": "Soils themes",
+                    "url": "https://wms.nibio.no/cgi-bin/jordkvalitet",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Potential for vegetable cultivation",
+                    "type": "wms-getCapabilities",
+                    "description": "Soils themes",
+                    "url": "https://wms.nibio.no/cgi-bin/grsak",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Arable land",
+                "type": "wms-getCapabilities",
+                "description": "FKB-Arable land",
+                "url": "https://wms.nibio.no/cgi-bin/dyrkbarjord",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Value classes agricultural land and arable land",
+                "type": "wms-getCapabilities",
+                "description": "Data for value classes of agricultural land and arable land",
+                "url": "https://wms.nibio.no/cgi-bin/verdiklasserjordbrukogdyrkbar",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Landscape",
+                "type": "wms-getCapabilities",
+                "description": "Landscape",
+                "url": "https://wms.nibio.no/cgi-bin/landskap",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Grazing",
+                "type": "wms-getCapabilities",
+                "description": "Grazing",
+                "url": "https://wms.nibio.no/cgi-bin/beite",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Forestry Plan",
+                "type": "wms-getCapabilities",
+                "description": "Forestry Plan",
+                "url": "https://wms.nibio.no/cgi-bin/skogbruksplan",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "SatSkog",
+                "type": "wms-getCapabilities",
+                "description": "SatSkog",
+                "url": "https://wms.nibio.no/cgi-bin/satskog",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Farms",
+                "type": "wms-getCapabilities",
+                "description": "Farms",
+                "url": "https://wms.nibio.no/cgi-bin/gardskart",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "CLC",
+                "type": "wms-getCapabilities",
+                "description": "CLC",
+                "url": "https://wms.nibio.no/cgi-bin/clc",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "AR50",
+                "type": "wms-getCapabilities",
+                "description": "Area resource map at a scale of 1:50,000",
+                "url": "https://wms.nibio.no/cgi-bin/ar50",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "AR250",
+                "type": "wms-getCapabilities",
+                "description": "Area resource map at a scale of 1:250,000",
+                "url": "https://wms.nibio.no/cgi-bin/ar250",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Forest resources (SR16)",
+                "type": "wms-getCapabilities",
+                "description": "Forest resources (SR16)",
+                "url": "https://wms.nibio.no/cgi-bin/sr16",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Vegetation",
+                "type": "wms-getCapabilities",
+                "description": "Vegetation",
+                "url": "https://wms.nibio.no/cgi-bin/vegetasjon",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Regrowth",
+                "type": "wms-getCapabilities",
+                "description": "Regrowth",
+                "url": "https://wms.nibio.no/cgi-bin/gjengroing",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Protective Forest",
+                "type": "wms-getCapabilities",
+                "description": "Protective Forest",
+                "url": "https://wms.nibio.no/cgi-bin/vernskog",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Inclination",
+                "type": "wms-getCapabilities",
+                "description": "Inclination",
+                "url": "https://wms.nibio.no/cgi-bin/helling",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Skogportal",
+                "type": "group",
+                "description": "Datasets from the NIBIO Skogportal.",
+                "items": [
+                  {
+                    "name": "Species data",
+                    "type": "wms-getCapabilities",
+                    "description": "Data from the Species Data Bank",
+                    "url": "https://wms.nibio.no/cgi-bin/artsdata",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Environment Directorate",
+                    "type": "wms-getCapabilities",
+                    "description": "Data from the Norwegian Environment Agency",
+                    "url": "https://wms.nibio.no/cgi-bin/naturbase",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Fertilizer fields in forests",
+                    "type": "wms-getCapabilities",
+                    "description": "Fertilizer fields in forests",
+                    "url": "https://wms.nibio.no/cgi-bin/gjodselsfelt_i_skog",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Long-term field trials",
+                "type": "wms-getCapabilities",
+                "description": "Long-term field trials",
+                "url": "https://wms.nibio.no/cgi-bin/feltforsok",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Field Humidity",
+                "type": "wms-getCapabilities",
+                "description": "Field Humidity",
+                "url": "https://wms.nibio.no/cgi-bin/markfuktighetskart",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Hovedplan",
+                "type": "wms-getCapabilities",
+                "description": "Hovedplan",
+                "url": "https://wms.nibio.no/cgi-bin/hovedplan",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Built-in soil",
+                "type": "wms-getCapabilities",
+                "description": "Built-in soil",
+                "url": "https://wms.nibio.no/cgi-bin/nedbygdjord",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "DMK",
+                "type": "wms-getCapabilities",
+                "description": "DMK",
+                "url": "https://wms.nibio.no/cgi-bin/markslag",
+                "parameters": {
+                  "FORMAT": "image/png",
+                  "TRANSPARENT": "true",
+                  "VERSION": "1.3.0"
+                }
+              },
+              {
+                "name": "Copernicus",
+                "type": "group",
+                "description": "Copernicus data.",
+                "items": [
+                  {
+                    "name": "Riparian zones",
+                    "type": "wms-getCapabilities",
+                    "description": "Riparian zones",
+                    "url": "https://wms.nibio.no/cgi-bin/riparian_zones",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Riparian zones",
+                    "type": "wms-getCapabilities",
+                    "description": "Riparian zones GLE",
+                    "url": "https://wms.nibio.no/cgi-bin/riparian_zones_gle",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Urban atlas",
+                    "type": "wms-getCapabilities",
+                    "description": "Urban atlas",
+                    "url": "https://wms.nibio.no/cgi-bin/urban_atlas",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "Urban atlas STL",
+                    "type": "wms-getCapabilities",
+                    "description": "Urban atlas STL",
+                    "url": "https://wms.nibio.no/cgi-bin/urban_atlas_stl",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  },
+                  {
+                    "name": "HRL",
+                    "type": "wms-getCapabilities",
+                    "description": "HRL",
+                    "url": "https://wms.nibio.no/cgi-bin/hrl",
+                    "parameters": {
+                      "FORMAT": "image/png",
+                      "TRANSPARENT": "true",
+                      "VERSION": "1.3.0"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Vegvesenet",
             "type": "wms-getCapabilities",
             "description": "Norwegian Road Authority.\n\nhttps://www.ngu.no/",
