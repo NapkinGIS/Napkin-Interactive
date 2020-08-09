@@ -1,8 +1,28 @@
+/*©agpl*************************************************************************
+*                                                                              *
+* Napkin Globe – Map-data interaction solution for the Napkin platform         *
+* Copyright (C) 2020  Napkin AS                                                *
+*                                                                              *
+* This program is free software: you can redistribute it and/or modify         *
+* it under the terms of the GNU Affero General Public License as published by  *
+* the Free Software Foundation, either version 3 of the License, or            *
+* (at your option) any later version.                                          *
+*                                                                              *
+* This program is distributed in the hope that it will be useful,              *
+* but WITHOUT ANY WARRANTY; without even the implied warranty of               *
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the                 *
+* GNU Affero General Public License for more details.                          *
+*                                                                              *
+* You should have received a copy of the GNU Affero General Public License     *
+* along with this program. If not, see <http://www.gnu.org/licenses/>.         *
+*                                                                              *
+*****************************************************************************©*/
+
       .loader-ui-right img{
         display: block;
         margin: calc(50vh - 150px) auto;
       }
-  
+
       @media (min-width: 768px){
         .loader-ui{
           display: flex;
@@ -12,18 +32,18 @@
           width: 100vw;
           height: 100vh;
         }
-        
+
         .loader-ui-left{
           background: #3F4854;
           height: 100vh;
           width: 350px;
           position: relative;
         }
-        
+
         .loader-ui-right{
           height: 100vh;
           width: calc(100% - 350px);
-        } 
+        }
         .loader-ui-grabber{
           left: 350px;
           top: 70px;
@@ -53,7 +73,7 @@
         top: 0;
         pointer-events: none;
       }
-     
+
       .loader-ui-hide{
         opacity: 0;
       }
