@@ -1928,6 +1928,14 @@ bl@^1.0.0:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
 
+bl@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-2.2.1.tgz#8c11a7b730655c5d56898cdc871224f40fd901d5"
+  integrity sha512-6Pesp1w0DEX1N550i/uGV/TqucVL4AM/pgThFSN/Qq9si1/DF9aIHs1BxD8V/QU0HoeHO6cQRTAuYnLPKq1e4g==
+  dependencies:
+    readable-stream "^2.3.5"
+    safe-buffer "^5.1.1"
+
 blessed@^0.1.81:
   version "0.1.81"
   resolved "https://registry.yarnpkg.com/blessed/-/blessed-0.1.81.tgz#f962d687ec2c369570ae71af843256e6d0ca1129"
@@ -5913,9 +5921,9 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-"jsonschema@git+https://github.com/terriajs/jsonschema":
+jsonschema@terriajs/jsonschema:
   version "1.0.3"
-  resolved "git+https://github.com/terriajs/jsonschema#55cedb27a265bbae2b366a3824863c586c5d34cf"
+  resolved "https://codeload.github.com/terriajs/jsonschema/tar.gz/55cedb27a265bbae2b366a3824863c586c5d34cf"
 
 jsprim@^1.2.2:
   version "1.4.1"
@@ -7427,9 +7435,9 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-"pell@git://github.com/TerriaJS/pell.git#master":
+"pell@git://github.com/TerriaJS/pell#master":
   version "1.0.6"
-  resolved "git://github.com/TerriaJS/pell.git#7cd23a55cdfd130fedf3679433991bb7d958fc42"
+  resolved "git://github.com/TerriaJS/pell#7cd23a55cdfd130fedf3679433991bb7d958fc42"
 
 performance-now@^2.1.0:
   version "2.1.0"
