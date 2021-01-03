@@ -20,17 +20,18 @@
 
 {
     /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
-    initializationUrls: [
+    "initializationUrls": [
         "napkin"
     ],
-    parameters: {
-        googleUrlShortenerKey: null,
-        googleAnalyticsKey: null,
-        googleAnalyticsOptions: null,
+    "parameters": {
+        "googleUrlShortenerKey": null,
+        "googleAnalyticsKey": "257629024",
+        "googleAnalyticsOptions": null,
+        "bingMapsKey": "AsoYumwHPIwl7vLM-UjlpgzaEfcollrT0a1oiBNlWVqhECdYYfK2fBoWgZI_aiUU",
         /* Text that appears at the bottom of the map */
-        disclaimer: {
-            text: "© Napkin Globe",
-            url: "https://napkingis.no"
+        "disclaimer": {
+            "text": "© Napkin Globe",
+            "url": "https://napkingis.no"
         },
         /*
         // Text that will be added to any pages printed from your site.
@@ -54,27 +55,27 @@
         // },
 
         /*
-        developerAttribution: {
-            text: "NapkinGIS",
-            link: "https://napkingis.no"
+        "developerAttribution": {
+            "text": "NapkinGIS",
+            "link": "https://napkingis.no"
         },*/
         // This is used in various text messages. You should also set <title> in index.html
-        appName: "Napkin Globe",
+        "appName": "Napkin Globe",
 
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
-        brandBarElements: [
+        "brandBarElements": [
             "<a target=\"_blank\" href=\"https://napkingis.no\"><img src=\"images/napkin.svg\" height=\"52\" /></a>"
         ],
         // Shown when things go wrong.
-        supportEmail: "contact@napkingis.no",
+        "supportEmail": "contact@napkingis.no",
         // You probably shouldn't change this.
-        proj4ServiceBaseUrl: "proj4def/",
+        "proj4ServiceBaseUrl": "proj4def/",
         // Or this
-        feedbackUrl: "feedback",
+        "feedbackUrl": "feedback",
 
         // Default mobile viewer mode when loading the map for the first time on mobile platforms.
         // Options are: "3DTerrain", "3DSmooth", "2D"
-        mobileDefaultViewerMode: "2d",
+        "mobileDefaultViewerMode": "2d",
         // Enable experimental features, since its nice to have the bleeding edge.
         // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
         "experimentalFeatures": true,
