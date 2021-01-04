@@ -4,7 +4,7 @@ FROM node:10
 # Install Gdal
 # ------------
 
-RUN apt-get update && apt-get install -y git gdal-bin
+RUN apt-get update && apt-get install -y wget unzip gdal-bin
 
 
 # ----------------------------------------
@@ -13,20 +13,17 @@ RUN apt-get update && apt-get install -y git gdal-bin
 
 WORKDIR /usr/local/app/
 
-RUN git clone https://github.com/NapkinGIS/Napkin-Globe.git
+RUN wget https://github.com/NapkinGIS/Napkin-Globe/releases/download/v1.0/globe.zip
 
-WORKDIR /usr/local/app/Napkin-Globe
+RUN unzip globe.zip
 
-RUN rm README.md LICENCE .gitignore
-RUN rm -rf deploy/ .git/
-
-RUN npm install && npm run gulp release
-
-EXPOSE 3001
+WORKDIR /usr/local/app/globe
 
 
 # --------------------
 # Run within container
 # --------------------
+
+EXPOSE 3001
 
 CMD [ "node", "./node_modules/terriajs-server/lib/app.js", "--config-file", "devserverconfig.json" ]
