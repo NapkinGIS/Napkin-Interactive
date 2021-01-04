@@ -27,7 +27,6 @@
         "googleUrlShortenerKey": null,
         "googleAnalyticsKey": "257629024",
         "googleAnalyticsOptions": null,
-        "bingMapsKey": "AsoYumwHPIwl7vLM-UjlpgzaEfcollrT0a1oiBNlWVqhECdYYfK2fBoWgZI_aiUU",
         /* Text that appears at the bottom of the map */
         "disclaimer": {
             "text": "© Napkin Globe",
@@ -73,6 +72,8 @@
         // Or this
         "feedbackUrl": "feedback",
 
+        "openAddData": false,
+
         // Default mobile viewer mode when loading the map for the first time on mobile platforms.
         // Options are: "3DTerrain", "3DSmooth", "2D"
         "mobileDefaultViewerMode": "2d",
@@ -92,7 +93,8 @@
         // True to display new feature popups.
         "showFeaturePrompts": false,
 
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0NGU1MTIyZi04ZmM3LTQxN2QtYTg0OS0yMmZlMTA0MjZlY2QiLCJpZCI6MjkxNjAsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTE4MTQ0MDl9.Cr7NWCv6wKqh0dgnN0jXxhskrAYfmmdJEwhsy31CSjQ"
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0NGU1MTIyZi04ZmM3LTQxN2QtYTg0OS0yMmZlMTA0MjZlY2QiLCJpZCI6MjkxNjAsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTE4MTQ0MDl9.Cr7NWCv6wKqh0dgnN0jXxhskrAYfmmdJEwhsy31CSjQ",
 
+        "bingMapsKey": "AsoYumwHPIwl7vLM-UjlpgzaEfcollrT0a1oiBNlWVqhECdYYfK2fBoWgZI_aiUU"
     }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "napkin-globe",
-  "version": "0.0.1",
+  "name": "Napkin-Globe",
+  "version": "1.0",
   "description": "Mapping solution for interacting with geospatial data",
   "license": "AGPL-3.0",
   "engines": {
@@ -16,7 +16,7 @@
   },
   "config": {
   	"docker": {
-      "name": "data61/terria-terriamap",
+      "name": "napkin/napkin-globe",
       "include": "wwwroot node_modules devserverconfig.json index.js package.json version.js"
     }
   },

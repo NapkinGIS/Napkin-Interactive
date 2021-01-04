@@ -1,13 +1,29 @@
-# Docker image for the primary terria map application server
-FROM node:8
+FROM node:10
 
-RUN apt-get update && apt-get install -y gdal-bin
+# ------------
+# Install Gdal
+# ------------
 
-RUN mkdir -p /usr/src/app && mkdir -p /etc/config/client
-WORKDIR /usr/src/app/component
-COPY . /usr/src/app
-RUN rm wwwroot/config.json && ln -s /etc/config/client/config.json wwwroot/config.json
+RUN apt-get update && apt-get install -y git gdal-bin
+
+
+# ----------------------------------------
+# Clone Napkin-Globe repo
+# ----------------------------------------
+
+WORKDIR /usr/local/app/
+
+RUN git clone https://github.com/NapkinGIS/Napkin-Globe.git
+
+WORKDIR /usr/local/app/Napkin-Globe
+
+RUN npm install && npm run gulp release
 
 EXPOSE 3001
+
+
+# --------------------
+# Run within container
+# --------------------
 
 CMD [ "node", "./node_modules/terriajs-server/lib/app.js", "--config-file", "devserverconfig.json" ]
