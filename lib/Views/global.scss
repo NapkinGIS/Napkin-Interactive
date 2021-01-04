@@ -173,7 +173,7 @@ body {
   */
 
   // Removing unwanted elements
-  div[class$="feedback-button-wrapper"],
+  div[class*="feedback-button-wrapper"],
   ul[class^="tjs-help-panel"] li:nth-child(3),
   div.tjs-story-builder__intro {
     display: none;
