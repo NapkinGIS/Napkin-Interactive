@@ -17,6 +17,8 @@ RUN wget https://github.com/NapkinGIS/Napkin-Globe/releases/download/v1.0/globe.
 
 RUN unzip globe.zip
 
+RUN rm globe.zip
+
 WORKDIR /usr/local/app/globe
 
 
