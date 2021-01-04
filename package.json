@@ -15,7 +15,7 @@
     "terriajs-server": "^3.0.1"
   },
   "config": {
-  	"docker": {
+    "docker": {
       "name": "napkin/napkin-globe",
       "include": "wwwroot node_modules devserverconfig.json index.js package.json version.js"
     }
@@ -37,7 +37,7 @@
     "generate-terriajs-schema": "^1.5.0",
     "gulp": "^4.0.0",
     "json5": "^2.1.0",
-    "node-notifier": "^8.0.1",
+    "node-notifier": "^5.1.2",
     "node-sass": "^4.14.1",
     "plugin-error": "^1.0.1",
     "prettier": "1.17.0",

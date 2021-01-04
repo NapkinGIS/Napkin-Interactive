@@ -15,3 +15,6 @@ version.js
 privateserverconfig.json
 wwwroot/privateconfig.json
 packages/
+
+*-lock.json
+*.lock
