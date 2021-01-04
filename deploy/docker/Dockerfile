@@ -17,6 +17,9 @@ RUN git clone https://github.com/NapkinGIS/Napkin-Globe.git
 
 WORKDIR /usr/local/app/Napkin-Globe
 
+RUN rm README.md LICENCE .gitignore
+RUN rm -rf deploy/ .git/
+
 RUN npm install && npm run gulp release
 
 EXPOSE 3001
