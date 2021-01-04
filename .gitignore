@@ -16,5 +16,5 @@ privateserverconfig.json
 wwwroot/privateconfig.json
 packages/
 
-*-lock.json
-*.lock
+package-lock.json
+yarn.lock
